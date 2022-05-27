@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ThreeWApp: App {
+    let storage = ThreeWStorage()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView().environmentObject(storage)
         }
     }
 }

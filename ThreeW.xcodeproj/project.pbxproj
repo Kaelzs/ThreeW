@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0F81D82840E567005835A5 /* HourMinutesPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F81D72840E567005835A5 /* HourMinutesPicker.swift */; };
+		9F0F81DE2840F52B005835A5 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F81DD2840F52B005835A5 /* ActionView.swift */; };
 		9F83160B2833C23400F45E24 /* ThreeWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83160A2833C23400F45E24 /* ThreeWApp.swift */; };
-		9F83160D2833C23400F45E24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83160C2833C23400F45E24 /* ContentView.swift */; };
 		9F83160F2833C23500F45E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F83160E2833C23500F45E24 /* Assets.xcassets */; };
 		9F8316122833C23500F45E24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8316112833C23500F45E24 /* Preview Assets.xcassets */; };
+		9F950C14284082FD002C1362 /* ThreeWEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C13284082FD002C1362 /* ThreeWEvent.swift */; };
+		9F950C1628408847002C1362 /* Executing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C1528408847002C1362 /* Executing.swift */; };
+		9F950C18284093D7002C1362 /* ThreeWInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C17284093D7002C1362 /* ThreeWInputView.swift */; };
+		9F950C1C28409A68002C1362 /* ThreeWStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C1B28409A68002C1362 /* ThreeWStorage.swift */; };
+		9F950C212840C931002C1362 /* ShortcutRecorder in Frameworks */ = {isa = PBXBuildFile; productRef = 9F950C202840C931002C1362 /* ShortcutRecorder */; };
+		9F950C242840C94C002C1362 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C232840C94C002C1362 /* RecorderView.swift */; };
+		9F950C262840D491002C1362 /* KeyboardActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C252840D491002C1362 /* KeyboardActionView.swift */; };
+		9F950C282840DE0A002C1362 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F950C272840DE0A002C1362 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F0F81D72840E567005835A5 /* HourMinutesPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourMinutesPicker.swift; sourceTree = "<group>"; };
+		9F0F81DD2840F52B005835A5 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 		9F8316072833C23400F45E24 /* ThreeW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F83160A2833C23400F45E24 /* ThreeWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeWApp.swift; sourceTree = "<group>"; };
-		9F83160C2833C23400F45E24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F83160E2833C23500F45E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8316112833C23500F45E24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F8316132833C23500F45E24 /* ThreeW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThreeW.entitlements; sourceTree = "<group>"; };
+		9F950C13284082FD002C1362 /* ThreeWEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeWEvent.swift; sourceTree = "<group>"; };
+		9F950C1528408847002C1362 /* Executing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executing.swift; sourceTree = "<group>"; };
+		9F950C17284093D7002C1362 /* ThreeWInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeWInputView.swift; sourceTree = "<group>"; };
+		9F950C1B28409A68002C1362 /* ThreeWStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeWStorage.swift; sourceTree = "<group>"; };
+		9F950C232840C94C002C1362 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		9F950C252840D491002C1362 /* KeyboardActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardActionView.swift; sourceTree = "<group>"; };
+		9F950C272840DE0A002C1362 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +44,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F950C212840C931002C1362 /* ShortcutRecorder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0F81D92840F369005835A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F0F81DF2840F52F005835A5 /* Action */,
+				9F950C272840DE0A002C1362 /* AppView.swift */,
+				9F0F81D72840E567005835A5 /* HourMinutesPicker.swift */,
+				9F950C17284093D7002C1362 /* ThreeWInputView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F0F81DB2840F395005835A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F950C13284082FD002C1362 /* ThreeWEvent.swift */,
+				9F950C1B28409A68002C1362 /* ThreeWStorage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F0F81DC2840F3A3005835A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9F8316132833C23500F45E24 /* ThreeW.entitlements */,
+				9F83160A2833C23400F45E24 /* ThreeWApp.swift */,
+				9F83160E2833C23500F45E24 /* Assets.xcassets */,
+				9F8316102833C23500F45E24 /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9F0F81DF2840F52F005835A5 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				9F950C252840D491002C1362 /* KeyboardActionView.swift */,
+				9F0F81DD2840F52B005835A5 /* ActionView.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
 		9F8315FE2833C23400F45E24 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +110,11 @@
 		9F8316092833C23400F45E24 /* ThreeW */ = {
 			isa = PBXGroup;
 			children = (
-				9F83160A2833C23400F45E24 /* ThreeWApp.swift */,
-				9F83160C2833C23400F45E24 /* ContentView.swift */,
-				9F83160E2833C23500F45E24 /* Assets.xcassets */,
-				9F8316132833C23500F45E24 /* ThreeW.entitlements */,
-				9F8316102833C23500F45E24 /* Preview Content */,
+				9F950C1528408847002C1362 /* Executing.swift */,
+				9F0F81DC2840F3A3005835A5 /* App */,
+				9F0F81DB2840F395005835A5 /* Model */,
+				9F950C222840C935002C1362 /* ShortcutRecorder */,
+				9F0F81D92840F369005835A5 /* View */,
 			);
 			path = ThreeW;
 			sourceTree = "<group>";
@@ -67,6 +125,14 @@
 				9F8316112833C23500F45E24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F950C222840C935002C1362 /* ShortcutRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				9F950C232840C94C002C1362 /* RecorderView.swift */,
+			);
+			path = ShortcutRecorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +151,9 @@
 			dependencies = (
 			);
 			name = ThreeW;
+			packageProductDependencies = (
+				9F950C202840C931002C1362 /* ShortcutRecorder */,
+			);
 			productName = ThreeW;
 			productReference = 9F8316072833C23400F45E24 /* ThreeW.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 9F8315FE2833C23400F45E24;
+			packageReferences = (
+				9F950C1F2840C931002C1362 /* XCRemoteSwiftPackageReference "ShortcutRecorder" */,
+			);
 			productRefGroup = 9F8316082833C23400F45E24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F83160D2833C23400F45E24 /* ContentView.swift in Sources */,
+				9F950C1C28409A68002C1362 /* ThreeWStorage.swift in Sources */,
+				9F950C14284082FD002C1362 /* ThreeWEvent.swift in Sources */,
+				9F950C282840DE0A002C1362 /* AppView.swift in Sources */,
+				9F0F81DE2840F52B005835A5 /* ActionView.swift in Sources */,
+				9F950C1628408847002C1362 /* Executing.swift in Sources */,
+				9F950C18284093D7002C1362 /* ThreeWInputView.swift in Sources */,
+				9F950C262840D491002C1362 /* KeyboardActionView.swift in Sources */,
+				9F0F81D82840E567005835A5 /* HourMinutesPicker.swift in Sources */,
+				9F950C242840C94C002C1362 /* RecorderView.swift in Sources */,
 				9F83160B2833C23400F45E24 /* ThreeWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,12 +347,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ThreeW/ThreeW.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThreeW/App/ThreeW.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThreeW/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ThreeW/App/Preview Content\"";
 				DEVELOPMENT_TEAM = 638NVKSPAW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -296,12 +376,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ThreeW/ThreeW.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ThreeW/App/ThreeW.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThreeW/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ThreeW/App/Preview Content\"";
 				DEVELOPMENT_TEAM = 638NVKSPAW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -342,6 +422,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F950C1F2840C931002C1362 /* XCRemoteSwiftPackageReference "ShortcutRecorder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JanX2/ShortcutRecorder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F950C202840C931002C1362 /* ShortcutRecorder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F950C1F2840C931002C1362 /* XCRemoteSwiftPackageReference "ShortcutRecorder" */;
+			productName = ShortcutRecorder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F8315FF2833C23400F45E24 /* Project object */;
 }
