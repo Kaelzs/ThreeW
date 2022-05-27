@@ -35,11 +35,15 @@ struct KeyboardActionView: View {
                 .font(.body)
                 .frame(width: 200)
 
-            HStack {
+            HStack() {
                 Toggle("⌘", isOn: $action.modifier.command)
+                    .frame(width: 45)
                 Toggle("⌥", isOn: $action.modifier.option)
+                    .frame(width: 45)
                 Toggle("⇧", isOn: $action.modifier.shift)
+                    .frame(width: 45)
                 Toggle("⌃", isOn: $action.modifier.control)
+                    .frame(width: 45)
             }
         }
     }
